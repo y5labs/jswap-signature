@@ -8,10 +8,10 @@ button.onsubmit = function(e) {
   e.preventDefault();
   usestockfoods = e.target.querySelector('input[name="usestockfoods"]').checked;
   if (usestockfoods) {
-    document.getElementById('link').href = 'http://swapstockfoods.co.nz';
+    document.getElementById('link').href = 'http://jswap.co.nz/stockfood/';
     document.getElementById('logo').src = './stockfoods.png';
   } else {
-    document.getElementById('link').href = 'http://jswap.co.nz';
+    document.getElementById('link').href = 'http://jswap.co.nz/';
     document.getElementById('logo').src = './contractors.png';
   }
   name = e.target.querySelector('input[name="name"]').value;
