@@ -3,10 +3,10 @@ button.onsubmit = (e) ->
   e.preventDefault()
   usestockfoods = e.target.querySelector('input[name="usestockfoods"]').checked
   if usestockfoods
-    document.getElementById('link').href = 'http://swapstockfoods.co.nz'
+    document.getElementById('link').href = 'http://jswap.co.nz/stockfoods/'
     document.getElementById('logo').src = './stockfoods.png'
   else
-    document.getElementById('link').href = 'http://jswap.co.nz'
+    document.getElementById('link').href = 'http://jswap.co.nz/'
     document.getElementById('logo').src = './contractors.png'
   name = e.target.querySelector('input[name="name"]').value
   title = e.target.querySelector('input[name="title"]').value
